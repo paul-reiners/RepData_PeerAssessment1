@@ -1,3 +1,6 @@
 .Rhistory
 activity.csv
 PA1_template.html
+.DS_Store
+PA1.html
+.gitignore~

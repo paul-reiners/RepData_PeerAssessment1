@@ -6,7 +6,9 @@
 ## Loading and preprocessing the data
 Load the data (i.e. `read.csv()`)
 ```{r}
+unzip("activity.zip")
 activity = read.csv("activity.csv")
+file.remove("activity.csv")
 ```
 
 Process/transform the data (if necessary) into a format suitable for your 
